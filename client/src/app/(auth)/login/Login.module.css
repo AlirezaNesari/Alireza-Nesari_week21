@@ -1,0 +1,147 @@
+.page {
+  min-height: 100vh;
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 52px;
+}
+
+.brand {
+  margin: 0 0 88px;
+  font-family: Vazirmatn;
+  color: #252525;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card {
+  width: 338px;
+  min-height: 380px;
+  padding: 35px 24px 20px;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #55a5ed;
+}
+
+.codeIcon {
+  position: absolute;
+  top: -1px;
+  right: 3px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.logoCircle {
+  width: 52px;
+  height: 52px;
+  border: 4px solid #55a5ed;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #55a5ed;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.title {
+  margin: 0 0 42px;
+  color: #252525;
+  font-family: Vazirmatn;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.form input {
+  width: 100%;
+  height: 39px;
+  border: none;
+  border-radius: 11px;
+  padding: 0 14px;
+  background: #f1f1f1;
+  outline: none;
+  direction: rtl;
+  text-align: right;
+  font-family: Vazirmatn;
+  font-size: 13px;
+}
+
+.form input:focus {
+  background: #ececec;
+}
+
+.form input::placeholder {
+  color: #999;
+}
+
+.submitButton {
+  width: 100%;
+  height: 40px;
+  margin-top: 14px;
+  border: none;
+  border-radius: 11px;
+  background: #55a5ed;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Vazirmatn;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.submitButton:hover {
+  background: #4699e4;
+}
+
+.link {
+  margin-top: 13px;
+  border: none;
+  background: transparent;
+  color: #2384dc;
+  cursor: pointer;
+  font-family: Vazirmatn;
+  font-size: 12px;
+}
+
+.error {
+  margin: 2px 0 0;
+  color: #ef4056;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 30px 16px;
+  }
+
+  .brand {
+    margin-bottom: 50px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 338px;
+  }
+}
