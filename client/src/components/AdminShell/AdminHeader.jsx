@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import { useAuth } from "@/features/auth/AuthContext";
+import { useAuth } from "../../features/auth/AuthContext";
 
 import SearchBox from "./SearchBox";
 

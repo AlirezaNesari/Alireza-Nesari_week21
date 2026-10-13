@@ -3,9 +3,9 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-import { getErrorMessage } from "@/lib/errors";
-import { createProduct, updateProduct } from "@/services/productService";
-import { productSchema } from "@/validations/productSchema";
+import { getErrorMessage } from "../../lib/errors";
+import { createProduct, updateProduct } from "../../services/productService";
+import { productSchema } from "../../validations/productSchema";
 
 import styles from "./ProductFormModal.module.css";
 

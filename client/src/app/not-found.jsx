@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-import { ROUTES } from "@/lib/routes";
+import { ROUTES } from "../lib/routes";
 
 export default function NotFound() {
   const router = useRouter();

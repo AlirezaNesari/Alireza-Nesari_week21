@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-import { getProducts } from "@/services/productService";
+import { getProducts } from "../../services/productService";
 
 const PAGE_SIZE = 10;
 const LOAD_ERROR_MESSAGE = "دریافت محصولات با خطا مواجه شد.";

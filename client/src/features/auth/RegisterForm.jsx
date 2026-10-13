@@ -4,10 +4,10 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useRouter } from "next/navigation";
 
-import { getErrorMessage } from "@/lib/errors";
-import { ROUTES } from "@/lib/routes";
-import { registerUser } from "@/services/authService";
-import { registerSchema } from "@/validations/authSchema";
+import { getErrorMessage } from "../../lib/errors";
+import { ROUTES } from "../../lib/routes";
+import { registerUser } from "../../services/authService";
+import { registerSchema } from "../../validations/authSchema";
 
 import AuthCard from "./AuthCard";
 import AuthField from "./AuthField";

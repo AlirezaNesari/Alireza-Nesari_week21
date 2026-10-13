@@ -4,8 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
-import { buildUrl } from "@/lib/url";
-import { deleteProduct } from "@/services/productService";
+import { buildUrl } from "../../lib/url";
+import { deleteProduct } from "../../services/productService";
 
 import DeleteModal from "./DeleteModal";
 import Pagination from "./Pagination";

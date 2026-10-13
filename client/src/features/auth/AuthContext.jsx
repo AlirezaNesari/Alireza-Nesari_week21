@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useMemo, useSyncExternalStore } from "react";
 
-import { tokenStorage } from "@/lib/tokenStorage";
+import { tokenStorage } from "../../lib/tokenStorage";
 
 const AuthContext = createContext(null);
 

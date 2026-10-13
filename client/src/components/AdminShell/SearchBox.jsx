@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
-import { buildUrl } from "@/lib/url";
+import { buildUrl } from "../../lib/url";
 
 import styles from "./AdminShell.module.css";
 

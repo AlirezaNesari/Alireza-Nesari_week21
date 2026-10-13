@@ -3,7 +3,7 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-import { productFilterSchema } from "@/validations/productFilterSchema";
+import { productFilterSchema } from "../../validations/productFilterSchema";
 
 import styles from "./Products.module.css";
 
